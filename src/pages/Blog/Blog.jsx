@@ -4,12 +4,12 @@ import React from 'react'
 
 const Blog = () => {
     return (
-        <div>
+        <Container>
             <h1>Blog Page</h1>
-        </div>
+        </Container>
     )
 }
-const Blog = styled.div``;
+const Container = styled.div``;
 
 
 export default Blog

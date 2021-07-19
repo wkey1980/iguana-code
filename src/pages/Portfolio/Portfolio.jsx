@@ -4,12 +4,12 @@ import React from 'react'
 
 const Portfolio = () => {
     return (
-        <div>
+        <Container>
             <h1>Portfolio Page</h1>
-        </div>
+        </Container>
     )
 }
-const Portfolio = styled.div``;
+const Container = styled.div``;
 
 
 export default Portfolio

@@ -4,12 +4,12 @@ import React from 'react'
 
 const Home = () => {
     return (
-        <div>
+        <Container>
             <h1>Home Page</h1>
-        </div>
+        </Container>
     )
 }
-const Home = styled.div``;
+const Container = styled.div``;
 
 
 export default Home

@@ -4,12 +4,12 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <div>
+        <Container>
             <h1>Contact Page</h1>
-        </div>
+        </Container>
     )
 }
-const Contact = styled.div``;
+const Container = styled.div``;
 
 
 export default Contact
