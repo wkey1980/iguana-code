@@ -1,7 +1,12 @@
+import Navbar from '../Navbar/index'
+import ContactForm from '../ContactForm/index'
+
+
 function App() {
   return (
     <div className="App">
-      <h1>Reset Project</h1>
+      <Navbar />
+      <ContactForm />
     </div>
   );
 }
