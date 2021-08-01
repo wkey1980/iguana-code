@@ -1,11 +1,12 @@
 import styled from 'styled-components/macro'
 
 import React from 'react'
+import ContactForm from '../../components/ContactForm'
 
 const Contact = () => {
     return (
         <Container>
-            <h1>Contact Page</h1>
+            <ContactForm />
         </Container>
     )
 }
