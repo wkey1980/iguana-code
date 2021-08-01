@@ -1,27 +1,16 @@
 import styled from "styled-components/macro";
 import React from 'react'
-import About from "../../pages/About/About";
-import Blog from "../../pages/Blog/Blog";
-import Contact from "../../pages/Contact/Contact";
-import Home from "../../pages/Home/Home";
-import Portfolio from "../../pages/Portfolio/Portfolio";
 import { Link } from "react-router-dom";
+import './styles/Navbar.Styles.css'
 
 const Navbar = () => {
     return (
-        <Nav>
-            <h1>Navbar Component</h1>
-            
-            {/* <About /> */}
-            {/* <Blog /> */}
-            {/* <Contact /> */}
-            {/* <Home /> */}
-            {/* <Portfolio /> */}
-            <Link to="/">Home</Link>
+        <Nav className="navbar">
             <Link to="/about">About</Link>
             <Link to="/blog">Blog</Link>
             <Link to="/contact">Contact</Link>
             <Link to="/portfolio">Portfolio</Link>
+            <Link className="active" to="/">Home</Link>
         </Nav>
     )
 }

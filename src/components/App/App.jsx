@@ -16,7 +16,6 @@ function App() {
   return (
     <div className="App">
       <GlobalStyle />
-      <h1>App Hello World!</h1>
       <Router>
         <Navbar />
         <Switch>
